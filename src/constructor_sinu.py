@@ -26,3 +26,7 @@ def make_windows_1step(y, L=10):
     X = torch.stack(X).unsqueeze(-1)  # (N, L, 1)
     Y = torch.stack(Y).unsqueeze(-1)  # (N, 1)
     return X, Y
+        
+        
+        
+        
